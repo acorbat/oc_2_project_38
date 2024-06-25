@@ -1,0 +1,11 @@
+name: neuroscan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python
+  - jupyterlab
+  - pip:
+    - -r requirements.txt
+    - -e .
