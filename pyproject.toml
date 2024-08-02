@@ -1,6 +1,29 @@
+[project]
+name = "neuroscan"
+description = "A 3D human motor neuron disease platform for high throughput drug screening."
+authors = [
+  {name = "Agustin Corbat", email = "agustin.corbat@scilifelab.se"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+keywords = ["Neurospheres", "Alzheimer", "Organoids", "Immunofluorescence"]
+maintainers = [
+  {name = "Agustin Corbat", email = "agustin.corbat@gmail.com"}
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Scientific Community"
+]
+dynamic = ["dependencies", "optional-dependencies", "version"]
+
 [build-system]
 requires = ["setuptools>=62.6.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+optional-dependencies.dev = {file = "requirements.dev.txt"}
 
 [tool.ruff]
 select = ["E", "F", "I"]
