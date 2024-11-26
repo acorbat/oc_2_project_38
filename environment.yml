@@ -1,11 +1,17 @@
 name: neuroscan
 channels:
   - conda-forge
-  - defaults
+  - pytorch
 dependencies:
   - pip
   - python
   - jupyterlab
+  - cellpose
+  - czifile
+  - matplotlib
+  - napari
+  - pyqt
+  - scikit-image
   - pip:
     - -r requirements.txt
     - -e .
