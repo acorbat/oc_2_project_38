@@ -37,6 +37,14 @@ Or you can use the following command to analyze a folder.
 
 This will add two TIFF labeled images containing the instance segmentation for nuclei and motor neurons in separate files.
 
+## Rationale
+
+Should you want to delve deeper into how the pipeline was developed, please go to the `notebooks` folder.
+You can find a three notebooks.
+The `data_loading.ipynb` describes how images are loaded.
+The `nuclei_segmentation.ipynb` describes how nuclei are segmented from the nuclei channel.
+The `motor_segmentation.ipynb` describes how motor neurons are segmented from the motor neuron channel.
+
 ## Support
 
 If you find a bug, please [raise an issue](https://github.com/BIIFSweden/AI4Life_OC2_2024_38/issues/new).
