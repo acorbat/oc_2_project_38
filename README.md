@@ -6,6 +6,11 @@ A 3D human motor neuron disease platform for high throughput drug screening
 
 Install the [conda](https://conda.io) package, dependency and environment manager.
 
+You can download this repository from the green `Code` button and download and zip, or through the command line with
+
+    cd <path to any folder of choice>
+    git clone https://github.com/BIIFSweden/AI4Life_OC2_2024_38.git
+
 Then create the `neuroscan` conda environment:
 
     cd <path to your 'AI4Life_OC2_2024_38' directory>
@@ -24,6 +29,13 @@ Then run [Jupyter Lab](https://jupyter.org) from within the `neuroscan` conda en
     jupyter-lab
 
 All analysis notebooks can be found in the [notebooks](notebooks) directory.
+
+Or you can use the following command to analyze a folder.
+
+    conda activate neuroscan
+    neuroscan segment <path to folder>
+
+This will add two TIFF labeled images containing the instance segmentation for nuclei and motor neurons in separate files.
 
 ## Support
 

@@ -12,6 +12,7 @@ dependencies:
   - napari
   - pyqt
   - scikit-image
+  - tqdm
   - pip:
     - -r requirements.txt
     - -e .
