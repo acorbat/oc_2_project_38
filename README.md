@@ -41,9 +41,9 @@ This will add two TIFF labeled images containing the instance segmentation for n
 
 Should you want to delve deeper into how the pipeline was developed, please go to the `notebooks` folder.
 You can find a three notebooks.
-The `data_loading.ipynb` describes how images are loaded.
-The `nuclei_segmentation.ipynb` describes how nuclei are segmented from the nuclei channel.
-The `motor_segmentation.ipynb` describes how motor neurons are segmented from the motor neuron channel.
+The [data_loading.ipynb](notebooks/data_loading.ipynb) describes how images are loaded.
+The [nuclei_segmentation.ipynb](notebooks/nuclei_segmentation.ipynb) describes how nuclei are segmented from the nuclei channel.
+The [motor_segmentation.ipynb](notebooks/motor_segmentation.ipynb) describes how motor neurons are segmented from the motor neuron channel.
 
 ## Support
 
