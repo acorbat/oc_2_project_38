@@ -1,6 +1,35 @@
-# AI4Life_OC2_2024_38 NeuroScan
+<p align="center">
+  <a href="https://ai4life.eurobioimaging.eu/open-calls/">
+    <img src="https://github.com/ai4life-opencalls/.github/blob/main/AI4Life_banner_giraffe_nodes_OC.png?raw=true" width="70%">
+  </a>
+</p>
 
-A 3D human motor neuron disease platform for high throughput drug screening
+
+# Project #38: Neuroscan
+## A 3D human motor neuron disease platform for high throughput drug screening
+
+[![DOI](https://zenodo.org/badge/DOI/)](https://doi.org/)
+
+
+---
+This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Katharina Hennig at [University of Lisboa](https://www.ulisboa.pt/en). 
+All the images demonstrated in this tutorial are provided under **CC-BY** licence.
+
+If any of the instructions are not working, please [open an issue](https://github.com/ai4life-opencalls/oc-2-project-38/issues) or contact us at [ai4life@fht.org](ai4life@fht.org)! 
+
+**Project challenges**: cell instance segmentation.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Rationale](#rationale)
+8. [Conclusion](#conclusion)
+
+# Introduction
+
+A 3D human motor neuron disease platform for high throughput drug screening.
+The goal of this package is to load the 3D images acquired of neurospheres and segment nuclei and Islet1 positive nuclei from their respective channels.
 
 ## Installation
 
@@ -44,6 +73,12 @@ You can find a three notebooks.
 The [data_loading.ipynb](notebooks/data_loading.ipynb) describes how images are loaded.
 The [nuclei_segmentation.ipynb](notebooks/nuclei_segmentation.ipynb) describes how nuclei are segmented from the nuclei channel.
 The [motor_segmentation.ipynb](notebooks/motor_segmentation.ipynb) describes how motor neurons are segmented from the motor neuron channel.
+
+## Conclusion
+
+[AI4Life](https://ai4life.eurobioimaging.eu)  is a Horizon Europe-funded project that brings together the computational and life science communities.
+
+AI4Life has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement number 101057970. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
 
 ## Support
 
