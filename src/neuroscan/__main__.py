@@ -50,13 +50,17 @@ def segment_file(
     scale = get_scale(filepath)
 
     for channel in ["motor", "nuclei"]:
+        savepath = filepath.with_name(filepath.stem + f"_{channel}.tiff")
+        if savepath.exists():
+            logger.info(f"Skipping {channel} channel, already segmented")
+            continue
         logger.info(f"Segmenting {channel} channel")
         image = load_image(filepath, channel=channel)
         if channel == "motor":
             labeled = segment_motor_neuron(image, scale=scale)
         elif channel == "nuclei":
             labeled = segment_nuclei(image, scale=scale)
-        save_labels(filepath.with_name(filepath.stem + f"_{channel}.tiff"), labeled)
+        save_labels(savepath, labeled)
 
 
 def segment_folder(
