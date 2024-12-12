@@ -24,7 +24,7 @@ If any of the instructions are not working, please [open an issue](https://githu
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Rationale](#rationale)
-8. [Conclusion](#conclusion)
+5. [Conclusion](#conclusion)
 
 # Introduction
 
