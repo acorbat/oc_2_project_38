@@ -92,6 +92,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 [SciLifeLab BioImage Informatics Facility (BIIF)](https://biifsweden.github.io) project lead: Agustin Corbat
 
+Data acquisition: [Katharina Hennig](https://orcid.org/0000-0003-4655-1185), [Afonso Malheiro](https://orcid.org/0000-0001-9062-1051), [Edgar R. Gomes](https://orcid.org/0000-0002-6941-4872)
+
 ## License
 
 [MIT](LICENSE)
