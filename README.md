@@ -12,7 +12,7 @@
 
 
 ---
-This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Katharina Hennig at [Institute of Molecular Medicine](https://imm.medicina.ulisboa.pt/). 
+This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Katharina Hennig at [Institute of Molecular Medicine](https://imm.medicina.ulisboa.pt/) (now [Gulbenkian Institute for Molecular Medicine](https://gimm.pt/)). 
 All the images demonstrated in this tutorial are provided under **CC-BY** licence.
 
 If any of the instructions are not working, please [open an issue](https://github.com/ai4life-opencalls/oc-2-project-38/issues) or contact us at [ai4life@fht.org](ai4life@fht.org)! 
