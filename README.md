@@ -12,7 +12,7 @@
 
 
 ---
-This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Katharina Hennig at [University of Lisboa](https://www.ulisboa.pt/en). 
+This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Katharina Hennig at [Institute of Molecular Medicine](https://imm.medicina.ulisboa.pt/). 
 All the images demonstrated in this tutorial are provided under **CC-BY** licence.
 
 If any of the instructions are not working, please [open an issue](https://github.com/ai4life-opencalls/oc-2-project-38/issues) or contact us at [ai4life@fht.org](ai4life@fht.org)! 
@@ -69,7 +69,7 @@ This will add two TIFF labeled images containing the instance segmentation for n
 ## Rationale
 
 Should you want to delve deeper into how the pipeline was developed, please go to the `notebooks` folder.
-You can find a three notebooks.
+You can find three notebooks.
 The [data_loading.ipynb](notebooks/data_loading.ipynb) describes how images are loaded.
 The [nuclei_segmentation.ipynb](notebooks/nuclei_segmentation.ipynb) describes how nuclei are segmented from the nuclei channel.
 The [motor_segmentation.ipynb](notebooks/motor_segmentation.ipynb) describes how motor neurons are segmented from the motor neuron channel.
