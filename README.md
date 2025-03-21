@@ -66,7 +66,7 @@ Or you can use the following command to analyze a folder.
 
 This will add two TIFF labeled images containing the instance segmentation for nuclei and motor neurons in separate files.
 
-## Rationale
+# Rationale
 
 Should you want to delve deeper into how the pipeline was developed, please go to the `notebooks` folder.
 You can find three notebooks.
@@ -74,26 +74,26 @@ The [data_loading.ipynb](notebooks/data_loading.ipynb) describes how images are 
 The [nuclei_segmentation.ipynb](notebooks/nuclei_segmentation.ipynb) describes how nuclei are segmented from the nuclei channel.
 The [motor_segmentation.ipynb](notebooks/motor_segmentation.ipynb) describes how motor neurons are segmented from the motor neuron channel.
 
-## Conclusion
+# Conclusion
 
 [AI4Life](https://ai4life.eurobioimaging.eu)  is a Horizon Europe-funded project that brings together the computational and life science communities.
 
 AI4Life has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement number 101057970. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
 
-## Support
+# Support
 
 If you find a bug, please [raise an issue](https://github.com/BIIFSweden/AI4Life_OC2_2024_38/issues/new).
 
-## Contributing
+# Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Authors
+# Authors
 
 [SciLifeLab BioImage Informatics Facility (BIIF)](https://biifsweden.github.io) project lead: Agustin Corbat
 
 Data acquisition: [Katharina Hennig](https://orcid.org/0000-0003-4655-1185), [Afonso Malheiro](https://orcid.org/0000-0001-9062-1051), [Edgar R. Gomes](https://orcid.org/0000-0002-6941-4872)
 
-## License
+# License
 
-[MIT](LICENSE)
+[BSD 3-Clause License](LICENSE)
