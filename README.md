@@ -8,7 +8,7 @@
 # Project #38: Neuroscan
 ## A 3D human motor neuron disease platform for high throughput drug screening
 
-[![DOI](https://zenodo.org/badge/DOI/)](https://doi.org/10.6019/S-BIAD1737)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15088622.svg)](https://doi.org/10.5281/zenodo.15088622)
 
 
 ---
