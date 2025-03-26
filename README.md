@@ -8,7 +8,7 @@
 # Project #38: Neuroscan
 ## A 3D human motor neuron disease platform for high throughput drug screening
 
-[![DOI](https://zenodo.org/badge/DOI/)](https://doi.org/)
+[![DOI](https://zenodo.org/badge/DOI/)](https://doi.org/10.6019/S-BIAD1737)
 
 
 ---
@@ -30,6 +30,10 @@ If any of the instructions are not working, please [open an issue](https://githu
 
 A 3D human motor neuron disease platform for high throughput drug screening.
 The goal of this package is to load the 3D images acquired of neurospheres and segment nuclei and Islet1 positive nuclei from their respective channels.
+
+## Dataset
+
+The dataset used for this project can be found in BioImage Archive with accession number [S-BIAD1737](https://doi.org/10.6019/S-BIAD1737).
 
 ## Installation
 
